@@ -439,6 +439,11 @@ void xuLyPhim(KEY_EVENT_RECORD key) {
 				deleteRow(4, ConsoleHeight - 3);
 				veMenuCapDo(0);
 				break;
+			case 6:
+				STrang = 1;
+				deleteRow(3, 17);
+				veMenuChinh(0);
+				break;
 			}
 			break;
 		case ClickTrai:  //Phím z để mở Ô

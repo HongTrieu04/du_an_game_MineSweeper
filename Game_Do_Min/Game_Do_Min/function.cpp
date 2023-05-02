@@ -436,7 +436,7 @@ void xuLyPhim(KEY_EVENT_RECORD key) {
 				break;
 			case 5:
 				STrang = 2;
-				deleteRow(4, ConsoleHeight - 3);
+				deleteRow(3, 27);
 				veMenuCapDo(0);
 				break;
 			case 6:
